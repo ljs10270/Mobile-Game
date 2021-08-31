@@ -1,12 +1,12 @@
 # Mobile-Game Unity C#
-대학교를 주제로 Unity C# Firebase로 개발한 안드로이드 모바일 게임
+* 대학교를 주제로 Unity C# Firebase로 개발한 안드로이드 모바일 게임
 
 ![image](https://user-images.githubusercontent.com/59761622/122669205-2ef70500-d1f7-11eb-8388-b84d82528563.png)
 
 Unity에서 C# 스크립트에 Monobehaviour를 상속하여 Unity 게임 엔진 제어와 Firebase를 활용하여 학교의 각 학과와 건물들에 연관된 총 3개의 게임(퀴즈 게임, 바이러스 디펜스 게임, 리듬 게임)을 개발하였으며 튜토리얼을 진행할 수 있고 각 게임별 설명서가 존재한다. 각 게임을 단계적으로 플레이 하고 사용자의 획득 점수로 전체 랭킹 순위와 실시간 랭킹 순위를 볼 수 있으며 각 게임을 정상적으로 플레이 했을 시 학교에 관련된 정보를 획득할 수 있다. 
 
 오브젝트 풀링 기법을 활용하여 메모리 힙 영역 최적화 및 FPS를 올려 성능을 개선하였으며 Singleton pattern으로 코드 재사용, 싱글 스레드 기반인 Unity 엔진에서 멀티 스레드를 위해 코루틴(IEnumerator, yield return)을 활용하여 비동기 프로그래밍을 하였다. 리듬 게임의 경우 학교의 교가를 곡으로 선택하였으며 박자와 떨어지는 노트를 맞추기 위해 곡의 BPM 분석, 생동감 있는 게임을 위해 오디오, 이펙트 및 애니메이션을 적용하였으며 GitHub를 통한 형상관리를 하여 Google Play Store에 모바일 앱으로 배포하였다.
-
+***
 1. 개발 환경 및 사용 도구와 패턴
 - 개발 플랫폼(IDE): Unity 2019.3.3f1
 - 코드 편집기: Visual Studio 2017
@@ -41,7 +41,7 @@ Unity에서 C# 스크립트에 Monobehaviour를 상속하여 Unity 게임 엔진
 5. 사용된 Font(한글 글꼴)
 - 나눔 고딕 무료 폰트: https://hangeul.naver.com/(네이버 한글한글 아름답게)
 - BelloPro 무료 폰트: https://www.download-free-fonts.com/details/91171/bello-pro
-
+***
 
 
 ![image](https://user-images.githubusercontent.com/59761622/130316830-b1980898-03db-4f57-8b71-facec325aeba.png)
