@@ -56,3 +56,4 @@ Unity에서 C# 스크립트에 Monobehaviour를 상속하여 Unity 게임 엔진
 ![image](https://user-images.githubusercontent.com/59761622/130316903-b360b360-dabf-4dd3-ac56-acf1bef5342a.png)
 ***
 * 프로젝트 시연 영상 -> https://blog.naver.com/ljs1027s/222011138127
+* 최적화 -> https://blog.naver.com/ljs1027s/222163924053
